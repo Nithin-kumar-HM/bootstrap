@@ -1,0 +1,172 @@
+body{
+
+  font-family: "Montserrat";
+  text-align:center;
+}
+h1{
+  font-family: "ubuntu";
+}
+h2,h3{
+  /* font-family: "Montserrat-bold"; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+   color:#8f8f8f;
+}
+
+  /* containers */
+.container-fluid{
+
+  padding: 7% 15%;
+}
+
+
+/*big heading */
+.big-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight:bold;
+
+}
+.section-heading{
+  font-weight: 900;
+font-size:3rem;
+}
+ /* color-sections */
+ .colored-section{
+   background-color: #ff4c68;
+   color:#fff;
+ }
+ .white-section{
+background-color:#fff;
+ }
+/* title */
+
+#maintitle .container-fluid{
+
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+
+/* navigation bar */
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+/* proper alin */
+.navbar{
+  padding:0 0 4.5rem 0.5px;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+   font-size: 2.5rem;
+  font-weight: bold;
+  
+
+}
+.download-button{
+  margin:5% 3% 5% 0;
+}
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+    position:absolute;
+    right: 30%;
+}
+  /* feature section */
+  #features{
+      position:relative;
+      z-index: 1;
+    }
+.feature-title{
+  font-weight: 900;
+  font-size: 1.3rem;
+  margin-top: 8px;
+}
+
+.feature-box{
+
+  padding:5%;
+}
+.icon{
+  color: #ef8172;
+
+}
+.icon:hover{
+  color:#ff4c68;
+}
+
+/*********************** Testimonials **************************************/
+
+#testimonials{
+      background-color:#ef8172;
+
+}
+.testimonial-text{
+   font-weight: 900;
+   font-size:3rem;
+}
+
+.img-testimonials{
+      width:10%;
+      border-radius:100%;
+      margin:20px;
+    }
+    /* press */
+#press{
+   background-color:#ef8172;
+   text-align: center;
+   padding-bottom: 3%;
+
+
+}
+.img-logo{
+  width:15%;
+  margin: 20px;
+}
+/****************pricing*********************/
+#pricing{
+  padding:100px;
+
+}
+.price-text{
+  font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+
+}
+.pricing-coloum {
+padding:3% 2%;
+}
+
+
+/***************************footer**********************************/
+.btn-last{
+  margin:5% 3% 5% 0;
+}
+.social-media-icon{
+  margin:20px 10px;
+}
+.footer-icon{
+  color:black;
+}
+
+/*******************media condition*****************/
+
+@media (max-width:991px)
+{
+
+  #title{
+
+        padding: 7% 15%;
+  /*  background-color: #ff4c68; */
+}
+.title-img{
+position: static;
+transform: rotate(0);
+}
+}
